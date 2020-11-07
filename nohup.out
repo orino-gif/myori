@@ -1,0 +1,810 @@
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 126.133.224.34 at 2020-10-09 20:10:56 +0900
+Cannot render console from 126.133.224.34! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 388ms (Views: 201.7ms)
+
+
+Started GET "/about" for 126.133.224.34 at 2020-10-09 20:11:00 +0900
+Cannot render console from 126.133.224.34! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 9.9ms)
+
+
+Started GET "/" for 126.133.224.34 at 2020-10-09 20:11:44 +0900
+Cannot render console from 126.133.224.34! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 10.8ms)
+
+
+Started GET "/about" for 126.133.224.34 at 2020-10-09 20:12:21 +0900
+Cannot render console from 126.133.224.34! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.5ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-10-09 20:21:00 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 126.133.224.34 at 2020-10-09 20:24:05 +0900
+Cannot render console from 126.133.224.34! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 278ms (Views: 136.3ms)
+
+
+Started GET "/about" for 126.133.224.34 at 2020-10-09 20:24:09 +0900
+Cannot render console from 126.133.224.34! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 33.1ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-10-09 21:23:03 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.5ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-10-09 21:23:07 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-10-09 21:23:09 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.7ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-10-09 22:35:12 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 131.147.95.239 at 2020-10-10 00:24:13 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 302ms (Views: 139.0ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-10-10 00:24:21 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 131.147.95.239 at 2020-10-18 17:18:34 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 324ms (Views: 159.8ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-10-18 17:18:36 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 32.3ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-10-18 18:26:42 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 10.9ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-10-18 18:26:46 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.1ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-10-18 18:26:48 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-10-18 19:25:25 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 17.6ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-10-18 19:25:28 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.3ms)
+
+
+2020-10-18 20:58:31 +0900: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2020-10-18 20:58:31 +0900: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-10-18 22:30:53 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 131.147.95.239 at 2020-10-23 06:52:46 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 361ms (Views: 171.7ms)
+
+
+Started GET "/index.html" for 131.147.95.239 at 2020-10-23 07:11:35 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:22:in `block in call'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.7.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 131.147.95.239 at 2020-10-23 07:13:10 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms)
+
+
+Started GET "/index.html" for 131.147.95.239 at 2020-10-23 07:21:01 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:22:in `block in call'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.7.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index.html" for 131.147.95.239 at 2020-10-23 07:21:03 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:22:in `block in call'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.7.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 131.147.95.239 at 2020-10-23 07:21:08 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-10-23 09:38:01 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/about" for 131.147.95.239 at 2020-10-25 09:15:01 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 411ms (Views: 219.6ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-10-25 09:15:07 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.1ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-10-25 09:46:56 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 131.147.95.239 at 2020-10-27 00:20:08 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 198ms
+
+
+  
+SyntaxError (/home/norio/myori/app/views/home/top.html.erb:21: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+ puts age /
+      ^~~
+):
+  
+app/views/home/top.html.erb:21: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+Started GET "/" for 131.147.95.239 at 2020-10-27 00:20:51 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2ms
+
+
+  
+SyntaxError (/home/norio/myori/app/views/home/top.html.erb:21: syntax error, unexpected ')'
+@output_buffer.append=(age /);@output_buffer.safe_append='
+                            ^
+/home/norio/myori/app/views/home/top.html.erb:25: syntax error, unexpected `ensure', expecting ')'
+          ensure
+          ^~~~~~
+/home/norio/myori/app/views/home/top.html.erb:27: syntax error, unexpected `end', expecting ')'
+          end
+          ^~~
+):
+  
+app/views/home/top.html.erb:21: syntax error, unexpected ')'
+app/views/home/top.html.erb:25: syntax error, unexpected `ensure', expecting ')'
+app/views/home/top.html.erb:27: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 131.147.95.239 at 2020-10-27 00:21:57 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 203ms (Views: 201.9ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-10-27 03:10:28 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 131.147.95.239 at 2020-10-27 23:53:22 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 348ms (Views: 173.7ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-10-27 23:53:24 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 12.6ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-10-28 00:32:03 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-10-28 01:01:36 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.8ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-10-28 01:01:40 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-10-28 01:08:32 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-10-28 01:08:45 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.0ms)
+
+
+Started GET "/" for 38.18.59.115 at 2020-10-28 02:06:00 +0900
+Cannot render console from 38.18.59.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.7ms)
+
+
+Started GET "/admin/" for 213.32.95.147 at 2020-10-28 02:25:57 +0900
+Cannot render console from 213.32.95.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:22:in `block in call'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.7.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.7.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.7.0/gems/activesupport-5.1.7/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.7.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.7.0/gems/railties-5.1.7/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-10-28 03:22:54 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 131.147.95.239 at 2020-11-05 07:10:44 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 410ms (Views: 239.5ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-11-05 07:10:47 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 10.5ms)
+
+
+2020-11-05 18:24:00 +0900: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+Started GET "/" for 49.51.242.225 at 2020-11-05 18:24:00 +0900
+Cannot render console from 49.51.242.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.0ms)
+
+
+Started GET "/" for 122.228.19.79 at 2020-11-05 18:42:33 +0900
+Cannot render console from 122.228.19.79! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as */*
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.6ms)
+
+
+Started GET "/" for 122.228.19.79 at 2020-11-05 18:42:33 +0900
+Cannot render console from 122.228.19.79! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as */*
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.3ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-11-05 23:04:19 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 126.186.44.72 at 2020-11-06 19:49:13 +0900
+Cannot render console from 126.186.44.72! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 317ms (Views: 156.8ms)
+
+
+Started GET "/about" for 126.186.44.72 at 2020-11-06 19:49:18 +0900
+Cannot render console from 126.186.44.72! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 30.1ms)
+
+
+Started GET "/" for 126.186.44.72 at 2020-11-06 19:51:29 +0900
+Cannot render console from 126.186.44.72! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.8ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-11-06 21:54:10 +0900 ===
+- Goodbye!
+Exiting
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/stack.rb:35: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionpack-5.1.7/lib/action_dispatch/middleware/static.rb:109: warning: The called method `initialize' is defined here
+A server is already running. Check /home/norio/myori/tmp/pids/server.pid.
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Exiting
+=> Booting Puma
+=> Rails 5.1.7 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.6 (ruby 2.7.1-p83), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 131.147.95.239 at 2020-11-07 08:31:13 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/view_paths.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/actionview-5.1.7/lib/action_view/lookup_context.rb:128: warning: The called method `template_exists?' is defined here
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type.rb:25: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/activerecord-5.1.7/lib/active_record/type/adapter_specific_registry.rb:7: warning: The called method `add_modifier' is defined here
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 340ms (Views: 168.7ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-11-07 08:33:28 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.5ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-11-07 08:33:33 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-11-07 09:35:34 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.2ms)
+
+
+Started GET "/" for 131.147.95.239 at 2020-11-07 09:39:27 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms)
+
+
+Started GET "/about" for 131.147.95.239 at 2020-11-07 09:39:31 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 12.5ms)
+
+
+2020-11-07 10:24:02 +0900: Read error: #<RuntimeError: No REQUEST PATH>
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:577:in `normalize_env'
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:631:in `handle_request'
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+/home/norio/myori/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 131.147.95.239 at 2020-11-07 10:25:43 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 4ms
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    2: <h1>MyOri</h1>
+    3: <p>自分だけのオリジナルキャラクターを投稿しよう</p>
+    4: <a href="/about">MyOriとは</a>
+    5: <%= link_to("リンク名", :action => "hoge", :para => @para.id) %>
+  
+app/views/home/top.html.erb:5:in `_app_views_home_top_html_erb__3000611618206469340_12100'
+Started GET "/" for 131.147.95.239 at 2020-11-07 10:36:58 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2ms
+
+
+  
+SyntaxError (/home/norio/myori/app/views/home/top.html.erb:8: syntax error, unexpected `ensure', expecting ')'
+          ensure
+          ^~~~~~
+/home/norio/myori/app/views/home/top.html.erb:10: syntax error, unexpected `end', expecting ')'
+          end
+          ^~~
+):
+  
+app/views/home/top.html.erb:8: syntax error, unexpected `ensure', expecting ')'
+app/views/home/top.html.erb:10: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 131.147.95.239 at 2020-11-07 10:41:43 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 3ms
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    2: <h1>MyOri</h1>
+    3: <p>自分だけのオリジナルキャラクターを投稿しよう</p>
+    4: <a href="/about">MyOriとは</a>
+    5: <%= link_to("リンク名", :action => "hoge", :para => @para.id) %>
+  
+app/views/home/top.html.erb:5:in `_app_views_home_top_html_erb__3000611618206469340_14340'
+Started GET "/" for 131.147.95.239 at 2020-11-07 10:58:32 +0900
+Cannot render console from 131.147.95.239! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 11.4ms)
+
+

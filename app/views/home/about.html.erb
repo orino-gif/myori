@@ -1,0 +1,29 @@
+<h1>テストページ</h1>
+<p>オリジナルキャラクター専用投稿サイトです</p>
+
+
+<%names = ["orino","eva","niki"]
+names.each do |name|%>
+<%="名前は#{name}"%><br>
+<%end%> 
+
+<% user = {"name"=>"Hayashi","age"=>38}%>
+<%=user%><br>
+<% user2 = {:name=>"yashi",:age=>8}%>
+<%=user2%><br>
+<% user2 = {name:"yashi",age:8}%>
+<%=user2%><br>
+
+<br>
+<%=user["name"]%>
+<%=user[:name]="Norio"%>
+<%=user["new"]="end"%>
+<%=user%>
+<%=:ruby%>
+
+<%=user[:weight]%>
+<%="aaa">
+<br>
+
+<a href="/">top</a>
+

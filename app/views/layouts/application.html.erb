@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title><%= content_for?(:title) ? yield(:title):"イラスト専科～イラストスペシャリストを育成＆紹介"%></title>
+  <!-- jquery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta charset="UTF-8" name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1">
+
+    <!--ファビコン -->
+    <%= favicon_link_tag('favicon.ico') %>
+
+    <!--ツイートボタン -->
+    <a href="http://twitter.com/share?url=http://orino-fudousan.com/" target="_blank">
+    <img src="/assets/site-part/twt.png" class="size_twitter" alt="tweet">
+    </a>
+
+    <!--フォローボタン-->
+    <a href="https://twitter.com/intent/follow?screen_name=NoriHaya7">
+    <img src="/assets/site-part/flw.png" class="size_twitter" alt="follow">
+    </a>
+
+    <!--トップバナー-->
+    <div class="bord_top border backcolor-lightgray">
+    IRASEN ～イラスト専科<br>
+    <span style="font-size:0.7em;">～イラストスペシャリストを育成＆紹介～</span>
+    <a href="/">
+    <span style="font-size:0.6em;">▲sitetop
+    </a>
+    </div>
+
+    <!--プロフィール-->
+    <div class="profile border backcolor-lightgray">
+    <b>筆者プロフィール</b><br>
+
+    <td widht="50"><img src="/assets/site-part/ri2-icn.png" 
+    class="icn" alt="ri2-icn"></td><br><br><br>
+    C言語の組み込みプログラム開発業務を2年、Linuxを用いたデータ解析業務を2年経験。
+    現在Linuxを用いて、業務の効率化と一部の自動化を行っている。
+    技術だけではなく利益を上げるITエンジニアとして、
+    ITとビジネスに関する事を執筆。<br>
+    <br>email:<br>norio@iiot-engineer.com
+    </div>
+
+  </head>
+
+  <body class="basecolor">
+    <%= yield %>
+  </body>
+
+  <!--フッター-->
+  <br><br><br>
+  <div class="border backcolor-lightgray"><footer>
+  c2020 IIoTEngineer. All rights reserved.<br>
+  <a href="#page-top">▲top</a>
+  </footer></div>
+</html>

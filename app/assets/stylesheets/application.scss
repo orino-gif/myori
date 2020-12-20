@@ -13,8 +13,6 @@
  *= require_tree .
  *= require_self
  */
-<style>
-/*
 body {
 }
 .basecolor{
@@ -81,7 +79,7 @@ div {
 	content: ''; position: absolute;
 }
 .right::before {
-	left: -22px; top 40%; margin-top: 0px;
+	left: -22px; top: 40%; margin-top: 0px;
 	border: 14px solid transparent; 
 	border-right-color: white;
 }
@@ -108,5 +106,3 @@ h3 {
 	padding: 0.5em;	background:lightgray;
 	border-bottom: solid 5px gray;
 }
-*/
-</style>

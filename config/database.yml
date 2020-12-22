@@ -21,8 +21,13 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
-  <<: *default
-  database: myori_development
+  adapter: mysql2
+  database: test
+  username: root
+  password: Orino_1013
+
+  #<<: *default
+  #database: myori_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.

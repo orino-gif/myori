@@ -1,0 +1,60 @@
+current directory: /home/rio/myori/vendor/bundle/ruby/2.7.0/gems/mysql2-0.4.10/ext/mysql2
+/home/rio/.rbenv/versions/2.7.2/bin/ruby -I /home/rio/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201222-11949-27whem.rb extconf.rb
+checking for rb_absint_size()... yes
+checking for rb_absint_singlebit_p()... yes
+checking for ruby/thread.h... yes
+checking for rb_thread_call_without_gvl() in ruby/thread.h... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_wait_for_single_fd()... yes
+checking for rb_hash_dup()... yes
+checking for rb_intern3()... yes
+checking for rb_big_cmp()... yes
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/rio/.rbenv/versions/2.7.2/bin/$(RUBY_BASE_NAME)
+	--with-ruby-dir
+	--without-ruby-dir
+	--with-ruby-include
+	--without-ruby-include=${ruby-dir}/include
+	--with-ruby-lib
+	--without-ruby-lib=${ruby-dir}/lib
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/lib
+	--with-mysql-config
+	--without-mysql-config
+	--with-mysqlclient-dir
+	--without-mysqlclient-dir
+	--with-mysqlclient-include
+	--without-mysqlclient-include=${mysqlclient-dir}/include
+	--with-mysqlclient-lib
+	--without-mysqlclient-lib=${mysqlclient-dir}/lib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+/home/rio/.rbenv/versions/2.7.2/lib/ruby/2.7.0/mkmf.rb:1050:in `block in find_library': undefined method `split' for nil:NilClass (NoMethodError)
+	from /home/rio/.rbenv/versions/2.7.2/lib/ruby/2.7.0/mkmf.rb:1050:in `collect'
+	from /home/rio/.rbenv/versions/2.7.2/lib/ruby/2.7.0/mkmf.rb:1050:in `find_library'
+	from extconf.rb:95:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/rio/myori/vendor/bundle/ruby/2.7.0/extensions/x86_64-linux/2.7.0/mysql2-0.4.10/mkmf.log
+
+extconf failed, exit code 1

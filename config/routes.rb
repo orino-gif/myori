@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  get 'posts/index'
+  get 'requests/top'
 
+  get 'question/top'
+
+  get 'posts/index'
   root to: 'home#top'
   get 'about' => 'home#about'
 

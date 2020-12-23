@@ -1,4 +1,4 @@
 class QuestionController < ApplicationController
-  def top
+  def index
   end
 end

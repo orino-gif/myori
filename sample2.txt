@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-Happy Git
-=======
-aaa
-bbb
->>>>>>> test

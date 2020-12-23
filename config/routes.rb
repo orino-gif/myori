@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'question/index'
+
   get 'requests/top'
 
   get 'question/top'

@@ -1,0 +1,206 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 19, /home/rio/myori/app/assets/stylesheets/application.scss */
+.basecolor {
+  background-color: oldlace;
+}
+@charset "UTF-8";
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 22, /home/rio/myori/app/assets/stylesheets/question.scss */
+.basecolor {
+  background-color: oldlace;
+}
+
+/* line 27, /home/rio/myori/app/assets/stylesheets/question.scss */
+.size_twitter {
+  width: 25px;
+  height: 25px;
+}
+
+/* line 30, /home/rio/myori/app/assets/stylesheets/question.scss */
+.size_standing {
+  position: relative;
+  width: 140px;
+  height: 140px;
+}
+
+/* line 34, /home/rio/myori/app/assets/stylesheets/question.scss */
+.top-right {
+  top: -185px;
+  left: 69%;
+  margin-bottom: -190px;
+}
+
+/* line 38, /home/rio/myori/app/assets/stylesheets/question.scss */
+.icn {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 41, /home/rio/myori/app/assets/stylesheets/question.scss */
+.explain {
+  max-width: 100%;
+  width: 680px;
+}
+
+/* line 44, /home/rio/myori/app/assets/stylesheets/question.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 47, /home/rio/myori/app/assets/stylesheets/question.scss */
+p {
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  max-width: 680px;
+}
+
+/* line 51, /home/rio/myori/app/assets/stylesheets/question.scss */
+.right-text {
+  text-align: right;
+}
+
+/* line 54, /home/rio/myori/app/assets/stylesheets/question.scss */
+div {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  max-width: 680px;
+}
+
+/* line 59, /home/rio/myori/app/assets/stylesheets/question.scss */
+.border {
+  border: 10px outset silver;
+  padding: 5px;
+}
+
+/* line 62, /home/rio/myori/app/assets/stylesheets/question.scss */
+.backcolor-lightgray {
+  background-color: lightgray;
+}
+
+/* line 65, /home/rio/myori/app/assets/stylesheets/question.scss */
+.bord_top {
+  max-width: 655px;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+/* line 70, /home/rio/myori/app/assets/stylesheets/question.scss */
+.balloon {
+  max-width: 380px;
+  width: 51%;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background: white;
+  border-radius: 25px;
+}
+
+/* line 75, /home/rio/myori/app/assets/stylesheets/question.scss */
+.right {
+  position: relative;
+  top: -130px;
+  left: 150px;
+  margin-bottom: -130px;
+}
+
+/* line 79, /home/rio/myori/app/assets/stylesheets/question.scss */
+.left {
+  position: relative;
+  margin: 30px 30px;
+}
+
+/* line 82, /home/rio/myori/app/assets/stylesheets/question.scss */
+.balloon::before {
+  content: '';
+  position: absolute;
+}
+
+/* line 85, /home/rio/myori/app/assets/stylesheets/question.scss */
+.right::before {
+  left: -22px;
+  top: 40%;
+  margin-top: 0px;
+  border: 14px solid transparent;
+  border-right-color: white;
+}
+
+/* line 90, /home/rio/myori/app/assets/stylesheets/question.scss */
+.left::before {
+  right: -28px;
+  top: 40%;
+  margin-top: -14px;
+  border: 16px solid transparent;
+  border-left-color: white;
+}
+
+/* line 95, /home/rio/myori/app/assets/stylesheets/question.scss */
+.profile {
+  position: absolute;
+  top: 37px;
+  left: 697px;
+  font-size: 0.9em;
+  padding: 15px;
+  width: 250px;
+}
+
+@media screen and (max-width: 980px) {
+  /* line 102, /home/rio/myori/app/assets/stylesheets/question.scss */
+  .profile {
+    display: none;
+  }
+}
+/* line 104, /home/rio/myori/app/assets/stylesheets/question.scss */
+h1, h2 {
+  font-size: 20px;
+}
+
+/* line 107, /home/rio/myori/app/assets/stylesheets/question.scss */
+h3 {
+  padding: 0.5em;
+  background: lightgray;
+  border-bottom: solid 5px gray;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */

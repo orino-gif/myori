@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :tweets
   get 'question/index'
 
   get 'requests/top'

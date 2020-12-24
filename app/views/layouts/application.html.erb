@@ -11,6 +11,7 @@
     <!--ファビコン -->
     <%= favicon_link_tag('favicon.ico') %>
     <img class="size_logo" src="/assets/site-part/defomate_ban.png">
+    <%=link_to "ディフォルメ依頼","/tweets"%>
   </head>
 
   <body class="basecolor">
@@ -18,9 +19,12 @@
   </body>
 
   <!--フッター-->
-  <footer>
+  <footer><br>
+  <%=link_to "サイト説明","/about"%>
+  <%=link_to "疑問","/question/index"%>
+  <a href="#page-top">▲pagetop</a>
+  <a href="/">▲sittop</a><br>
   c2020 defomate<br>
   各作品の著作権はクリエイターに帰属し無断転載を禁じます
-  <a href="#page-top">▲top</a>
   </footer>
 </html>

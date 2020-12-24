@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title><%=content_for?(:title) ? yield(:title):"イラスト専科～イラストスペシャリストを育成＆紹介"%></title>
+  <title><%=content_for?(:title) ? yield(:title):"defomate"%></title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -10,7 +10,7 @@
 
     <!--ファビコン -->
     <%= favicon_link_tag('favicon.ico') %>
-    <%= image_tag "defomate_bunner.png" %>
+    <img class="size_logo" src="/assets/site-part/defomate_ban.png">
   </head>
 
   <body class="basecolor">

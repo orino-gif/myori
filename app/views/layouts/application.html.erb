@@ -10,9 +10,11 @@
 
     <!--ファビコン -->
     <%= favicon_link_tag('favicon.ico') %>
-    <img class="size_logo" src="/assets/site-part/defomate_ban.png">
-    <%=link_to "ディフォルメ依頼","/tweets"%>
   </head>
+  <div>
+  <a href="/"><img class="size_logo" src="/assets/site-part/defomate_ban.png"%>
+  <%=link_to "ディフォルメ絵依頼","/tweets"%>
+  </div>
 
   <body class="basecolor">
     <%= yield %>

@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title><%=content_for?(:title) ? yield(:title):"defomate"%></title>
+    <%#各ページでタイトルを変更させる。入力がない場合は"defomate"を出力 %>
+    <title><%=content_for?(:title) ? yield(:title)+ ' | defomate' : 'defomate'%></title>
+
+    <%# クロスサイトスクリプティング攻撃の対策 %>  
     <%= csrf_meta_tags %>
+
+    <%# 全てのSCSSとjavascriptファイル読み込み, ロードの速度を上げるgemを利用 #%>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <meta charset="UTF-8" name="viewport"
-    content="width=device-width,initial-scale=1,minimum-scale=1">
 
-    <!--ファビコン -->
+    <%# モバイル対応。 表示画面が小さい場合に表示も狭める %>
+    <meta charset="UTF-8" name="viewport"content="width=device-width,initial-scale=1,minimum-scale=1">
+
+    <%# ファビコン指定 %>
     <%= favicon_link_tag('favicon.ico') %>
   </head>
-  <div>
-  <a href="/"><img class="size_logo" src="/assets/site-part/defomate_ban.png"%>
-  <%=link_to "ディフォルメ絵依頼","/tweets"%>
-  </div>
 
-  <body class="basecolor">
+  <header>
+    <%# ロゴ指定 %> 
+    <a href="/"><img class="size_logo" src="/assets/site-part/defomate_ban.png">
+
+    <%# 依頼ページへ移動 %> 
+    <br><a href="/about" class="btn">ディフォルメ依頼</a>
+
+    <%# ID登録、ログインページへ遷移 %> 
+    <!--<a href="/users/sign_up"class="btn">ID登録</a>-->
+
+    <%# サインアウト%>
+    <%#= link_to "サインアウト", destroy_user_session_path, method: :delete, class: 'btn' %>
+  </header>
+
+  <body>
     <%= yield %>
   </body>
 
   <!--フッター-->
-  <footer><br>
-  <%=link_to "サイト説明","/about"%>
-  <%=link_to "疑問","/question/index"%>
-  <a href="#page-top">▲pagetop</a>
-  <a href="/">▲sittop</a><br>
-  c2020 defomate<br>
-  各作品の著作権はクリエイターに帰属し無断転載を禁じます
+  <footer>
+    <br>
+    <a href="/about">サイト説明</a>
+    <a href="#page-top">▲pagetop</a>
+    <a href="/">▲sittop</a><br>
+    c2020 defomate.<br> 
+    各作品の著作権はクリエイターに帰属し無断転載を禁じます。
   </footer>
 </html>

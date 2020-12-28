@@ -1,28 +1,55 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
  *= require_tree .
  *= require_self
  */
 
+//変数定義
+$accent-color:gray; $main-color:white; $media-pc: 680px; $media-sp: 480px;
+
+//media～の処理を@includeで実行出来るようにする
+@mixin pc { @media only screen and (min-width: $media-pc ) { @content;} }
+@mixin sp { @media only screen and (max-width: $media-sp ) { @content;} }
+
+//ヘッダースタイル定義
+header {
+   background-color: $main-color;
+	a {
+	  color: $accent-color;
+	  text-decoration: none; 
+	  &:hover {
+		 color: $main-color; background-color: $accent-color;
+	   }
+	}
+	.btn {
+		background-color: gainsboro;
+	}
+
+	img {
+	}
+	.size_logo {
+		position: relative; width:250px; height:50px;
+		@include sp{position:relative; width:150px; height:30px;}
+	}
+}
+
+//ボディスタイル定義
 body {
+  background-color:whitesmoke;
+	div {
+		 color:$accent-color; background-color: $main-color;
+		 margin-top:20px;
+	}
 }
-.basecolor{
-	background-color:ivory;
-	
-}
-img {
-}
-.size_logo {
-   position: relative;
-   width:150px; height:30px;
+
+//フッダースタイル定義
+footer {
+  font-size: 14px; color: $accent-color;
+	a {
+	   color: $accent-color;
+	   text-decoration: none; 
+	   &:visited {color: silver;}
+	   &:hover {
+		color: $main-color; background-color: $accent-color;
+	  }
+	}
 }

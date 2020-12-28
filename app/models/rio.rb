@@ -1,2 +1,0 @@
-class Rio < ApplicationRecord
-end

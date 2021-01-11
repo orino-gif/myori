@@ -22,7 +22,7 @@ default: &default
 
 development:
   adapter: mysql2
-  database: test
+  database: defomate_DB
   username: root
   password: Orino_1013
 

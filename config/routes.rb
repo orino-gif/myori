@@ -1,13 +1,6 @@
 Rails.application.routes.draw do
-  resources :contacts
-  resources :tweets
-  get 'question/index'
-
-  get 'requests/top'
-
-  get 'question/top'
-
-  get 'posts/index'
+  get 'user/index/:id' => 'user#index'
+  #get 'user/index'
   root to: 'home#top'
   get 'about' => 'home#about'
 

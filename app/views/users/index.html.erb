@@ -1,0 +1,14 @@
+<div>
+    <h2>ID登録</h2>
+    <%= form_tag("/users/manage") do %>
+        <div>
+            <label for="name">ニックネーム</label>
+            <input type="text" id="name" name="name">
+            <label for="email">メールアドレス</label>
+            <input type="mail" id="email" name="email"><br>
+            <label for="passwd">パスワード</label>
+            <input type="password" id="passwd" name="pass"><br><br>
+            <input type="submit" value="登録">
+        </div>
+    <% end %>
+</div>

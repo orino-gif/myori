@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'users/manage'
+  post 'users/manage'
+
+  get 'users' => 'users#index'
+
+
   root to: 'home#top'
   get 'about' => 'home#about'
 

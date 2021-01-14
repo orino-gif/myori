@@ -1,0 +1,19 @@
+
+<%abc= "データベース一覧" %>
+<%=abc%>
+<table border="3">
+    <tr>
+    <% @users.each do |user| %>
+    <td><%= user.name %></td>
+    <% end %>
+    </tr>
+    <tr>
+        <td>abc</td>
+        <td>bb</td>
+        <td>csb</td>
+    </tr>
+</table>
+
+
+
+<%#=User.create(name:"",email:"")%>

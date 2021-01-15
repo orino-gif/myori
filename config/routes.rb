@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  get 'users/create'
+  post 'users/create'
+
   get 'users/manage'
   post 'users/manage'
 

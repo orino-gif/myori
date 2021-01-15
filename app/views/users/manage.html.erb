@@ -2,16 +2,15 @@
 <%abc= "データベース一覧" %>
 <%=abc%>
 <table border="3">
-    <tr>
+    
     <% @users.each do |user| %>
-    <td><%= user.name %></td>
-    <% end %>
-    </tr>
     <tr>
-        <td>abc</td>
-        <td>bb</td>
-        <td>csb</td>
+        <td><%= user.name %></td>
+        <td><%= user.email %></td>
+        <td><%= user.passwd %></td>
     </tr>
+    <% end %>
+
 </table>
 
 

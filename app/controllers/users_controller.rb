@@ -4,15 +4,25 @@ class UsersController < ApplicationController
     
   end
   def index
+    
     @users=User.all
   end
   def create
-    User.create(user_params)
-    #管理者用ページへ移動
-    redirect_to users_path
+    @user=User.create(user_params)
+    if @user.save
+      flash[:notice] = "メール認証完了"
+      #管理者用ページへ移動
+      redirect_to users_path
+    else
+      flash.now[:notice] = "入力エラー"
+      render 'new'
+    end
 
   end
   def show
+    
+  end
+  def edit
     
   end
   

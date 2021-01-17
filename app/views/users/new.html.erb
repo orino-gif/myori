@@ -3,7 +3,7 @@
     <%= form_for @user do |f| %>
       <h2>ID登録</h2> 
       <p>
-      <%= f.label :name, "ニックネーム" %>
+      <%= f.label :name, "ニックネーム(重複不可)" %>
       <%= f.text_field :name %>
       </p>
      
@@ -13,10 +13,10 @@
       </p>
      
       <p>
-      <%= f.label :passwd, "パスワード" %>
-      <%= f.text_field :passwd %>
+      <%= f.label :passwd, "パスワード(半角6~12文字、英大文字・小文字・数字を1文字以上含める)" %>
+      <%= f.password_field :passwd %>
       </p>
-      
+
       <%= f.submit "登録" %>
  
     <% end %>

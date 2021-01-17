@@ -34,7 +34,16 @@
 
   <body>
     
+    <% flash.each do |message_type, message| %>
+      <div>
+        <h3>
+          <%= message %>
+        </h3>
+      </div>
+    <% end %>
+    
     <%= yield %>
+    
   </body>
 
   <!--フッター-->

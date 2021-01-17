@@ -1,14 +1,18 @@
 Rails.application.routes.draw do
+  
+  # get 'users/show'
+  # post 'users/show'
+  # get 'users/profile'
+  # post 'users/profile'
 
-  get 'users/create'
-  post 'users/create'
+  # get 'users/new'
+  # post 'users/new'
 
-  get 'users/manage'
-  post 'users/manage'
+  # get 'users/manage'
+  # post 'users/manage'
 
-  get 'users' => 'users#index'
-
-
+  # get 'users' => 'users#index'
+  resources:users
   root to: 'home#top'
   get 'about' => 'home#about'
 

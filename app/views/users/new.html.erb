@@ -1,0 +1,24 @@
+
+<div>
+    <%= form_for @user do |f| %>
+      <h2>ID登録</h2> 
+      <p>
+      <%= f.label :name, "ニックネーム" %>
+      <%= f.text_field :name %>
+      </p>
+     
+      <p>
+      <%= f.label :email, "Eメール" %>
+      <%= f.text_field :email %>
+      </p>
+     
+      <p>
+      <%= f.label :passwd, "パスワード" %>
+      <%= f.text_field :passwd %>
+      </p>
+      
+      <%= f.submit "登録" %>
+ 
+    <% end %>
+</div>
+

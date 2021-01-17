@@ -1,11 +1,25 @@
 class UsersController < ApplicationController
-  
+  def new
+    @user=User.new
+    
+  end
+  def index
+    @users=User.all
+  end
   def create
-     User.create(name:params[:name],email:params[:email],
-     passwd:params[:pass],)
-     flash[:notice] = "ユーザー登録が完了しました"
+    User.create(user_params)
+    #管理者用ページへ移動
+    redirect_to users_path
+
   end
-  def manage
-     @users=User.all
+  def show
+    
   end
+  
+  private
+  def user_params
+    params.require(:user).permit(:name, :email, :passwd)
+  end
+  
+
 end

@@ -4,7 +4,7 @@ class UserMailer < ApplicationMailer
   def welcome_email
     mail(
       
-      to: 'orino0710@gmail.com',
+      to: 'norio@iiot-engineer.com',
       subject: '私の素敵なサイトへようこそ'
       )
   end

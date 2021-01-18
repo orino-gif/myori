@@ -26,42 +26,8 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  ## メールの配信方法
-  ## :smtp     -- config.action_mailer.smtp_settingsで設定可能
-  ## :sendmail -- config.action_mailer.sendmail_settingsで設定可能
-  ## :file:    -- メールをファイルとして保存する。config.action_mailer.file_settingsで設定可能
-  ## :test:    -- メールを配列ActionMailer::Base.deliveriesに保存
-  config.action_mailer.delivery_method = :smtp
-
-  # メール送信失敗時エラーとするかどうか
-  config.action_mailer.raise_delivery_errors = true
-  
-    ## SMTPの設定
-  config.action_mailer.smtp_settings = {
-    ## SMTPサーバでSTARTTLSが有効かどうかを検出して有効にする
-    :enable_starttls_auto => true,
-
-    ## リモートメールサーバ
-    :address => 'smtp.gmail.com',
-
-    ## メールサーバのポート
-    :port => '587',
-
-    ## HELOドメイン
-    :domain => 'smtp.gmail.com',
-
-    ## メールサーバの認証が必要な場合の認証方法
-    ## :plain    -- パスワードを平文で送信
-    ## :login    -- パスワードをBase64でエンコード
-    ## :cram_md5 -- チャレンジ/レスポンスによる情報交換と、MD5アルゴリズムによる重要情報のハッシュ化の組み合わせ
-    :authentication => 'plain',
-
-    ## メールサーバの認証に使用するユーザ名
-    :user_name => 'orino0710',
-
-    ## メールサーバの認証に使用するパスワード
-    :password => 'norio0710'
-  }
+  # Don't care if the mailer can't send.
+  config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
 

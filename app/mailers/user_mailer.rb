@@ -1,10 +1,10 @@
 class UserMailer < ApplicationMailer
-  default from: 'orino0710@gmail.com'
-
+  default from: 'test@defomate.com'
+  layout 'mailer'
   def welcome_email
     mail(
       
-      to: 'norio@iiot-engineer.com',
+      to: 'xr274375@fc5.so-net.ne.jp',
       subject: '私の素敵なサイトへようこそ'
       )
   end

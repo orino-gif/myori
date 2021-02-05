@@ -56,3 +56,4 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 plugin :tmp_restart
 
 bind "unix://home/rio/myori/tmp/sockets/puma.sock"
+

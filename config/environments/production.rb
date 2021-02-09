@@ -92,4 +92,39 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   
+  # メールの配信方法
+  ## :smtp     -- config.action_mailer.smtp_settingsで設定可能
+  ## :sendmail -- config.action_mailer.sendmail_settingsで設定可能
+  ## :file:    -- メールをファイルとして保存する。config.action_mailer.file_settingsで設定可能
+  ## :test:    -- メールを配列ActionMailer::Base.deliveriesに保存
+  config.action_mailer.delivery_method = :smtp
+
+  ## SMTPの設定
+  config.action_mailer.smtp_settings = {
+    ## SMTPサーバでSTARTTLSが有効かどうかを検出して有効にする
+    #:enable_starttls_auto => true,
+    :enable_starttls_auto => true,
+
+    ## リモートメールサーバ
+    :address => 'fc5.so-net.ne.jp',
+
+    ## メールサーバのポート
+    :port => '587',
+
+    ## HELOドメイン
+    :domain => 'fc5.so-net.ne.jp',
+
+    ## メールサーバの認証が必要な場合の認証方法
+    ## :plain    -- パスワードを平文で送信
+    ## :login    -- パスワードをBase64でエンコード
+    ## :cram_md5 -- チャレンジ/レスポンスによる情報交換と、MD5アルゴリズムによる重要情報のハッシュ化の組み合わせ
+    :authentication => 'login',
+
+    ## メールサーバの認証に使用するユーザ名
+    :user_name => 'xr274375',
+
+    ## メールサーバの認証に使用するパスワード
+    :password => 'orino1013'
+  }
+  
 end

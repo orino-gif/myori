@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   def new
     @user=User.new
-    UserMailer.welcome_email.deliver_later
+    UserMailer.welcome_email.deliver_now
 
   end
   

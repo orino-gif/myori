@@ -25,9 +25,8 @@ Rails.application.configure do
 
     config.cache_store = :null_store
   end
-
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
 
@@ -55,38 +54,15 @@ Rails.application.configure do
   #ホワイトリスト例外。0.0.0.0/0からのrender console要求を許可する。
   config.web_console.whitelisted_ips = '0.0.0.0/0'
   
-  ## メールの配信方法
-  ## :smtp     -- config.action_mailer.smtp_settingsで設定可能
-  ## :sendmail -- config.action_mailer.sendmail_settingsで設定可能
-  ## :file:    -- メールをファイルとして保存する。config.action_mailer.file_settingsで設定可能
-  ## :test:    -- メールを配列ActionMailer::Base.deliveriesに保存
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-
-  ## SMTPの設定
-  config.action_mailer.smtp_settings = {
-    ## SMTPサーバでSTARTTLSが有効かどうかを検出して有効にする
-    #:enable_starttls_auto => true,
-    :enable_starttls_auto => true,
-
-    ## リモートメールサーバ
-    :address => 'defomate.com',
-
-    ## メールサーバのポート
-    :port => '587',
-
-    ## HELOドメイン
-    :domain => 'defomate.com',
-
-    ## メールサーバの認証が必要な場合の認証方法
-    ## :plain    -- パスワードを平文で送信
-    ## :login    -- パスワードをBase64でエンコード
-    ## :cram_md5 -- チャレンジ/レスポンスによる情報交換と、MD5アルゴリズムによる重要情報のハッシュ化の組み合わせ
-    :authentication => 'login',
-
-    ## メールサーバの認証に使用するユーザ名
-    :user_name => 'test',
-
-    ## メールサーバの認証に使用するパスワード
-    :password => 'orino1013'
-  }
+	config.action_mailer.smtp_settings = {
+	  port:                 587,
+		address:              'mail.so-net.ne.jp',
+		domain:               'so-net.ne.jp',
+		user_name:            'xr274375@fc5.so-net.ne.jp',
+		password:             'orino1013',
+		authentication:       'login',
+		enable_starttls_auto: true
+	 }
 end

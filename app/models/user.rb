@@ -1,5 +1,6 @@
 class User < ApplicationRecord
-  #バリデーション
+  
+  #ApplicationRecordのUserのバリデーション設定
   VALID_EMAIL=/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   VALID_PASSWD=/\A(?=.*?[a-z])(?=.*?[A-Z])(?=.*?[\d])\w{6,12}\z/
   validates :name, presence: true, uniqueness: true, 

@@ -1,4 +1,5 @@
 class ApplicationMailer < ActionMailer::Base
   default from: 'xr274375@fc5.so-net.ne.jp'
+  #default from: 'operation@defomate.net'
   layout 'mailer'
 end

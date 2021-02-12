@@ -4,7 +4,10 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-     <h1>こんにちは！</h1>
-    <p>ご入会ありがとうございます。どうぞお楽しみくださいませ。</p>
+    <h3>こんにちは！<%=@user.name%>さん。</h3>
+    <p>defomate運営局です。</p>
+    <p>以下のリンクをクリックしてメール認証を完了させてください。</p>
+    <p>https://defomate.com/users/show/?email=<%=@user.email%>&passwd=<%=@user.passwd%>&name=<%=@user.name%></p>
+    
   </body>
 </html>
